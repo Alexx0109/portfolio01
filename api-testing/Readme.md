@@ -8,7 +8,7 @@
 
 ## Проверенные методы:
 
-API New Request03: Получение сведений об учетной записи пользователя по электронной почте.
+API User details bu email: Получение сведений об учетной записи пользователя по электронной почте.
 
 URL API: https://automationexercise.com/api/getUserDetailByEmail
 
@@ -20,7 +20,7 @@ URL API: https://automationexercise.com/api/getUserDetailByEmail
 
 JSON-ответ: Подробная информация о пользователе в postman
 
-API New Request01: POST-запрос для подтверждения входа без параметра email.
+API Verify login - missing email: POST-запрос для подтверждения входа без параметра email.
 
 URL API: https://automationexercise.com/api/verifyLogin
 Метод запроса: POST
@@ -32,7 +32,7 @@ URL API: https://automationexercise.com/api/verifyLogin
 Сообщение об ошибке: Неверный запрос, в POST-запросе отсутствует параметр email или password.
 
 
-API New Request02: POST-запрос для проверки входа в систему с неверными данными.
+API Verify login - invalid credentials : POST-запрос для проверки входа в систему с неверными данными.
 
 URL API: https://automationexercise.com/api/verifyLogin
 
