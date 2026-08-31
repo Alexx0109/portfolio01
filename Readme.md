@@ -1,11 +1,12 @@
 # QA Portfolio - Алексей Рыжков
-Портфолио учебный по ручному тестированию web-приложений и API.
+Портфолио учебный по ручному тестированию web-приложений и REST API.
 
 ## Навыки
-- Manual testing
+- Manual testing, тестирование сервиса бронирования, 28 тест-кейсов
 - Functional, regression testing
-- API testing: Postman, JSON, HTTP methods, status codes
+- API Automation Exercise, позитивные и негативные проверки в Postman
 - Bug reporting
+- Dev Tools
 - Git, GitHub, Jira
 
 ## Содержание
