@@ -1,0 +1,151 @@
+{
+  "id": "0fc1d2df-e1b9-499b-991e-5ec6f4199f5f",
+  "name": "Automation Exercise API",
+  "timestamp": "2026-08-31T11:34:24.578Z",
+  "collection_id": "56568169-b4b63a14-968f-4351-a20b-8b4c737e6fc2",
+  "folder_id": 0,
+  "environment_id": "0",
+  "totalPass": 7,
+  "delay": 0,
+  "persist": true,
+  "status": "finished",
+  "startedAt": "2026-08-31T11:34:21.955Z",
+  "totalFail": 2,
+  "results": [
+    {
+      "id": "c2d0b19e-321e-4dbb-a02e-618dc43ca389",
+      "name": "GET User details by email",
+      "url": "https://automationexercise.com/api/getUserDetailByEmail?email&test@example.com",
+      "time": 867,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Статус ответа — 200": true,
+        "responseCode равен 200": true,
+        "Ответ содержит объект user": true
+      },
+      "testPassFailCounts": {
+        "Статус ответа — 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "responseCode равен 200": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Ответ содержит объект user": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        867
+      ],
+      "allTests": [
+        {
+          "Статус ответа — 200": true,
+          "responseCode равен 200": true,
+          "Ответ содержит объект user": true
+        }
+      ]
+    },
+    {
+      "id": "4705e3ee-1fe4-47c6-9edf-ab00a59c9cbd",
+      "name": "POST Verify login - missing email",
+      "url": "https://automationexercise.com/api/verifyLogin",
+      "time": 295,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Сервер вернул 400 Bad Request": false,
+        "Код в JSON равен 400": true,
+        "Сообщение указывает на отсутствующий параметр": true
+      },
+      "testPassFailCounts": {
+        "Сервер вернул 400 Bad Request": {
+          "pass": 0,
+          "fail": 1
+        },
+        "Код в JSON равен 400": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Сообщение указывает на отсутствующий параметр": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        295
+      ],
+      "allTests": [
+        {
+          "Сервер вернул 400 Bad Request": false,
+          "Код в JSON равен 400": true,
+          "Сообщение указывает на отсутствующий параметр": true
+        }
+      ]
+    },
+    {
+      "id": "e3893f27-0ff4-478b-b932-a29be70e3240",
+      "name": "POST Verify login - invalid credentials",
+      "url": "https://automationexercise.com/api/verifyLogin",
+      "time": 296,
+      "responseCode": {
+        "code": 200,
+        "name": "OK"
+      },
+      "tests": {
+        "Статус ответа — 404 Not Found": false,
+        "Код в теле ответа равен 404": true,
+        "Возвращено сообщение User not found!": true
+      },
+      "testPassFailCounts": {
+        "Статус ответа — 404 Not Found": {
+          "pass": 0,
+          "fail": 1
+        },
+        "Код в теле ответа равен 404": {
+          "pass": 1,
+          "fail": 0
+        },
+        "Возвращено сообщение User not found!": {
+          "pass": 1,
+          "fail": 0
+        }
+      },
+      "times": [
+        296
+      ],
+      "allTests": [
+        {
+          "Статус ответа — 404 Not Found": false,
+          "Код в теле ответа равен 404": true,
+          "Возвращено сообщение User not found!": true
+        }
+      ]
+    }
+  ],
+  "count": 1,
+  "totalTime": 1458,
+  "collection": {
+    "requests": [
+      {
+        "id": "c2d0b19e-321e-4dbb-a02e-618dc43ca389",
+        "method": "GET"
+      },
+      {
+        "id": "4705e3ee-1fe4-47c6-9edf-ab00a59c9cbd",
+        "method": "POST"
+      },
+      {
+        "id": "e3893f27-0ff4-478b-b932-a29be70e3240",
+        "method": "POST"
+      }
+    ]
+  }
+}
