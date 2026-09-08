@@ -17,3 +17,4 @@
 - [Ruchnoe testirovanie veb-prilozheniy.pdf](https://github.com/user-attachments/files/31908618/Ruchnoe.testirovanie.veb-prilozheniy.pdf)
 ## Контакты
 - Email: lilikop92@gmail.com
+- Телеграм: @alex01_09
