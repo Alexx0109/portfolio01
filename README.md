@@ -10,7 +10,7 @@
 - [Тест-кейсы](./test-cases) тестирование сервиса бронирования, 28 тест-кейсов
 - [API-тестирование](./api-testing) API Automation Exercise, позитивные и негативные проверки в Postman
 - [Баг-репорты](./bug-reports) 5 оформленных bug reports
-- [SQL-запросы](./SQL_queries). учебные SQL-запросы для работы с базой данных в MySQL
+- [SQL-запросы](./sql). учебные SQL-запросы для работы с базой данных в MySQL
 
 ## Сертификаты  
 - [Vvedenie v testirovanie.pdf](https://github.com/user-attachments/files/31908594/Vvedenie.v.testirovanie.pdf)
